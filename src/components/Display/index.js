@@ -1,12 +1,12 @@
 import React from 'react'
-import Header from '../Header'
-import Footer from "../Footer"
+import About from '../pages/About'
+import '../../App.css'
+
+
 function Display() {
   return (
     <div>
-      <Header/>
-      Display
-      <Footer/>
+      <About/>
     </div>
   )
 }
