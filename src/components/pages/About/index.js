@@ -4,6 +4,7 @@ import GHM from '../../../assets/GHM.webp'
 import ME from '../../../assets/ME.jpg'
 
 function About() {
+
   return (
     <div>  
         <Container className='row justify-content-center p-4 m-4' fluid>
@@ -16,7 +17,7 @@ function About() {
                 <img className='img img-fluid' src={GHM}/>
             </div>
         </Container>
-
+        <breakLine/>
         <Container className='row justify-content-center p-4 m-6' fluid>
             <div className='col-lg-4'>
                 <img className='img img-fluid' src={ME} />
@@ -30,34 +31,6 @@ function About() {
 
         </Container>
     </div>
-
-
-
-
-        // <Container id='body' className='row justify-content-center' fluid>
-        //     <div className='col-8 bg-dark border border-dark-5 rounded shadow-lg m-3 py-2'>
-        //         <p className='text-center'>
-        //             <h1 className='text-danger'>"The mystery of life isn’t a problem to solve, but a reality to experience."</h1> <i className='text-light'> - Reverend Mother Gaius Helen Mohiam</i>                
-        //         </p>
-        //         <img className="img-fluid" src={GHM}/>
-        //     </div>
-        //     <div className='col-md-4 bg-light border border-dark-5 shadow-lg m-3 py-3'>
-        //         <div className='text-center'>
-        //             <h2>
-        //                 About Me
-        //             </h2>
-        //             <p>
-        //                 Hello! name is Hunter Nelson, I am a Dallas native with a passion for web development. I am rock climber and TTRPG nerd with a passion for designing tools for gaming and organizing life. I have recently finished a coding bootcamp through SMU and am excited to work on personal projects and freelance work this summer. I am currently seeking full-time employment as an entry level web developer.
-        //             </p>
-        //         </div>
-        //     </div>
-        //     <div className='col-md-6 bg-light border border-dark-5 shadow-lg m-3 py-3'>
-        //         <div className='text-center'>
-        //             <svg src='./'></svg>
-        //         </div>
-        //     </div>
-        // </Container>
-
   )
 }
 

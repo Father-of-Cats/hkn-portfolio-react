@@ -5,7 +5,7 @@ import { GoPerson,GoMail,GoFile } from 'react-icons/go'
 
 
 
-const Header = () => {
+const Header = ({currentPage, handlePageChange}) => {
 
     return(
         <Navbar bg='dark' expand={false}>
@@ -26,22 +26,36 @@ const Header = () => {
           
           
           <Nav.Item>
-              <a className='btn btn-outline-light m-2' href='#' >
+              <a 
+                className='btn btn-outline-light m-2' 
+                href='#About'
+                onClick={() => handlePageChange('About')} 
+                >
                 <GoPerson/> About
               </a>
           </Nav.Item>
           
           
           <Nav.Item>
-          <a className='btn btn-outline-light m-2' href='#'>
+          <a 
+            className='btn btn-outline-light m-2' 
+            href='#Projects'
+            onClick={() => handlePageChange('Projects')}
+            >
           <GoFile/> Projects
           </a>
           </Nav.Item>
+
           <Nav.Item>
-          <a className='btn btn-outline-light m-2' href='#'>
+          <a 
+          className='btn btn-outline-light m-2' 
+          href='#'
+          onClick={() => handlePageChange('Contact')}
+          >
           <GoMail/> Contact
           </a>
           </Nav.Item>
+
         </Nav>
       </Offcanvas.Body>
     </Navbar.Offcanvas>
