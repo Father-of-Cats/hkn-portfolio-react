@@ -1,11 +1,10 @@
-import React from 'react'; 
-import { useState,useRef } from 'react'
+import React, { useState,useRef } from 'react'; 
 import { Button,Navbar,Container,Offcanvas,Nav,Overlay,OverlayTrigger,Popover,Tooltip } from 'react-bootstrap';
 import { GoPerson,GoMail,GoFile } from 'react-icons/go'
 
 
 
-const Header = ({currentPage, handlePageChange}) => {
+const Header = ({ currentPage, handlePageChange }) => {
 
     return(
         <Navbar bg='dark' expand={false}>
@@ -27,9 +26,9 @@ const Header = ({currentPage, handlePageChange}) => {
           
           <Nav.Item>
               <a 
-                className='btn btn-outline-light m-2' 
                 href='#About'
                 onClick={() => handlePageChange('About')} 
+                className='btn btn-outline-light m-2' 
                 >
                 <GoPerson/> About
               </a>
