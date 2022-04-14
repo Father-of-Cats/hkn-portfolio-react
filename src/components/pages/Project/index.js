@@ -102,7 +102,8 @@ function Project() {
 <Container className='row' fluid>
 <div className='d-flex justify-content-around p-3 m-3'>
 
-{/* Row 3 Card 1 */}
+            {/* Row 3 Card 1 */}
+
 <Card style={{ width: '40rem' }}>
             <Card.Img variant="top" src={codingquiz} />
             <Card.Body>
@@ -121,7 +122,8 @@ function Project() {
             </ListGroup>
           </Card>
 
-{/* Row 3 Card 2 */}
+              {/* Row 3 Card 2 */}
+              
 <Card style={{ width: '40rem' }}>
             <Card.Img variant="top" src={codingquiz} />
             <Card.Body>
