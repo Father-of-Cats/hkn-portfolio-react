@@ -28,7 +28,7 @@ function Contact() {
 
 
   return (
-    <Form className='p-5 m-5 border border-dark rounded shadow-lg text-light bg-dark'>
+    <Form id='contact' className='p-5 m-5 border border-dark rounded shadow-lg text-light bg-dark'>
         <Form.Group className='"mb-3' controlId='name-input'>
             <Form.Label>Name</Form.Label>
             <Form.Control

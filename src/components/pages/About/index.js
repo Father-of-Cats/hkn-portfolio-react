@@ -6,7 +6,7 @@ import ME from '../../../assets/ME.jpg'
 function About() {
 
   return (
-    <div>  
+    <div id='about'>  
         <Container className='row justify-content-center p-4 m-4' fluid>
             <div className='col-lg-4 d-flex align-items-center'>
                 <p>
