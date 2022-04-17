@@ -1,11 +1,11 @@
 import React from 'react'
 import { Container,Card,ListGroup,ListGroupItem } from 'react-bootstrap'
-import codingquiz from '../../../assets/codingquiz.png'
-import diychan from '../../../assets/DIYchan.png'
-import UC from '../../../assets/UC.webp'
+import codingquiz from '../../assets/codingquiz.png'
+import diychan from '../../assets/DIYchan.png'
+import UC from '../../assets/UC.webp'
 
-function Project(props) {
-  const { currentCategory } = props;
+function Project() {
+  
   return (
     <div>
       <Container className='row' fluid>

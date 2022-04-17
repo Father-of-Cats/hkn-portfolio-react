@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Form,Button,Alert } from 'react-bootstrap'
-import { validateEmail } from '../../../util/helper'
+import { validateEmail } from '../../util/helper'
 
 
 function Contact() {

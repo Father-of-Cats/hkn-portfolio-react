@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import About from '../Pages/About'
-import Resume from '../Pages/Resume'
-import Contact from '../Pages/Contact'
-import Projects from '../Pages/Projects'
-import Header from '../Header'
-import '../../App.css'
+import About from './Pages/About'
+import Resume from './Pages/Resume'
+import Contact from './Pages/Contact'
+import Projects from './Pages/Projects'
+import Header from './Header'
+import '../App.css'
 
 function Display() {
     const [currentPage, setCurrentPage] = useState('About')
