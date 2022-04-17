@@ -28,7 +28,9 @@ const pageChanger = (page) => setCurrentPage(page);
 
 return (
     <div>
-        <Header currentPage={currentPage} pageChanger={pageChanger} />
+        <Header 
+        currentPage={currentPage} 
+        pageChanger={pageChanger} />
         {renderPage()}
     </div>
     );

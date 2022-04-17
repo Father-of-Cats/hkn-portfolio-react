@@ -18,7 +18,7 @@ This is a WIP portfolio built with React to demonstrate my ability and understan
 * Better projects in my portfolio
 
 # Screenshot
-Here
+![Screenshot](./src/assets/screenshot.png)
 
 # Deployment
 
