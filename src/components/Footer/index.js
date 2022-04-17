@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import { GoMarkGithub } from 'react-icons/go'
-import { FaLinkedinIn,FaTwitch } from 'react-icons/fa'
+import { FaLinkedinIn,FaTwitch,FaSpotify } from 'react-icons/fa'
 
 
 function Footer() {
@@ -13,11 +13,14 @@ function Footer() {
           <a className='btn btn-outline-light m-2' href='https://github.com/Father-of-Cats'>
           <GoMarkGithub/>
           </a>
-          <a className='btn btn-outline-light m-2' href='www.linkedin.com/in/hunter-k-nelson'>
+          <a className='btn btn-outline-light m-2' href='https://www.linkedin.com/in/hunter-k-nelson'>
             <FaLinkedinIn/>
           </a>
-          <a className='btn btn-outline-light m-2' href='#'>
+          <a className='btn btn-outline-light m-2' href='https://www.twitch.tv/theadventurearchive'>
             <FaTwitch/>
+          </a>
+          <a className='btn btn-outline-light m-2' href='https://open.spotify.com/show/3ImMl6cwPn6kgydbl5j3Jf?si=9569428b9e5d477e'>
+            <FaSpotify/>
           </a>
         </section>
       </Container>

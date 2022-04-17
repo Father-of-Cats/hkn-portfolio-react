@@ -4,7 +4,6 @@ import Resume from '../Pages/Resume'
 import Contact from '../Pages/Contact'
 import Projects from '../Pages/Projects'
 import Header from '../Header'
-import Navi from '../Navi'
 import '../../App.css'
 
 function Display() {
