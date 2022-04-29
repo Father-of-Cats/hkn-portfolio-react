@@ -21,6 +21,7 @@ This is a WIP portfolio built with React to demonstrate my ability and understan
 ![Screenshot](./src/assets/screenshot.png)
 
 # Deployment
+- [Deployed](https://hkn-portfolio.herokuapp.com/)
 
 # Author
 Hunter Nelson
